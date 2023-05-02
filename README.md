@@ -1,7 +1,7 @@
 # Fundamentos de Programación
 # Ejercicio de laboratorio: Netflix
 
-**Autor:**  Jorge García, Toñi Reina
+**Autor:**  Jorge García, Toñi Reina, José C. Riquelme
 **Revisores:** 
 **Última modificación:** 18/04/2023.
 
