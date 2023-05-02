@@ -96,10 +96,11 @@ Escriba un test para el tipo contenedor. En este test se leerán los datos del f
 
 Añada los siguientes tratamientos secuenciales al tipo contenedor. Debe resolver todos los métodos **mediante streams**, salvo que se le indique expresamente lo contrario:
 
-1. *Map<String, Set\<ProduccionNetflix\>> getProduccionesPorGenero2()*: Implemente el mismo método que en el ejercicio 4.1, pero usando Streams. 
+
 1. *SortedMap<Integer, String> getTituloDeTipoMasPopularPorAnyo(Tipo tipo)*: Dado un tipo de producción, devuelve un SortedMap en el que relaciona un año de producción con el título de la producción  del tipo dado con más popularidad. Las claves del SortedMap estarán ordenadas de año más reciente a más antiguo. 
-1. *String getGeneroMasProduccionesDeTipo(Tipo tipo)*: Dado un tipo de producción, devuelve el género para el que hay más producciones del tipo dado como parámetro. 
 1. *Double getDuracionMediaDeAnyoYTipo(Tipo tipo, Integer anyo)*: Dado un tipo de producción y un año, devuelve la duración media en minutos de las producciones de ese tipo producidas ese año. 
-1. *List\<Integer\> getAnyosConScoreMedioSuperiorA(Double umbralScore)*: Dado un tipo umbral de score, devuelve una lista  (ordenada de menor a mayor) con los años cuyo score medio supera a un umbral de score dado como parámetro. 
-
-
+1. *List<Integer> getAnyosConScoreMedioSuperiorA(Double umbralScore)*: Dado un tipo umbral de score, devuelve una lista  (ordenada de menor a mayor) con los años cuyo score medio supera a un umbral de score dado como parámetro.
+1. *Map<Integer, Double> getPorcentajeTemporadasSeriesPorAnyo()*: Devuelve un Map en el que se asocia los 
+años de producción y el porcentaje de temporadas que tuvieron las series que se produjeron en ese año con respecto al total de temporadas de las series producidas.
+1. *Map<Tipo, ProduccionNetflix> getProduccionMenosScorePorTipo()*: Devuelve un Map en el que se asocia a cada tipo de producción la producción que ha tenido menos score.
+1. *Map<Integer, Set<String>> getGenerosPorAnyo (Tipo tipo)*: Dado un tipo de producción, devuelve un Map que relaciona un año de producción con un conjunto de los géneros de las producciones del tipo dado como parámetro que se realizaron ese año.
